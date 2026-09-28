@@ -1,0 +1,42 @@
+{
+  "verification_date": "2026-09-06",
+  "mode": "real-public-source-smoke",
+  "network_retrieval": {
+    "nse_equity_directory": {
+      "url": "https://archives.nseindia.com/content/equities/EQUITY_L.csv",
+      "bytes": 181507,
+      "sha256": "61d29b7042e0b50152289239d18ab529f3928d01707199baf13fd89ab49b1f59",
+      "parsed_securities": 2570
+    },
+    "primary_filing": {
+      "url": "https://archives.nseindia.com/corporate/BEL_05082025203833_Letter_Signed_IAR_Notice.pdf",
+      "bytes": 15543216,
+      "sha256": "db47a73b477737b5c5241d6c62bfba08446a734fb8b59972b6a6577e0fe7867d",
+      "validated_pages": 236
+    },
+    "company_fallback": {
+      "url": "https://bel-india.in/wp-content/uploads/2025/08/Integrated-Annual-Report-2024-25.pdf",
+      "bytes": 14191978,
+      "sha256": "77c24f01f4ac0e509256b90217a8e21e937f292f4a459db144e6133c0d8d3955",
+      "validated_pages": 195
+    }
+  },
+  "application_pipeline": {
+    "run_id": "d3509a2a-1f12-439f-9458-cffd7db68bc7",
+    "status": "success",
+    "created_at": "2026-09-06T08:59:54.388419+00:00",
+    "completed_at": "2026-09-06T08:59:59.738591+00:00",
+    "symbol": "BEL",
+    "name": "Bharat Electronics Limited",
+    "isin": "INE263A01024",
+    "identity_verification": "NSE directory",
+    "source_id": "efb2b6691ade11bf748ff9f6fc867e8bcc7cdd3f69d54730f8051f95ba08a216",
+    "source_sha256": "db47a73b477737b5c5241d6c62bfba08446a734fb8b59972b6a6577e0fe7867d",
+    "document_date": "2025-08-05",
+    "public_available_at": "2025-08-05T20:38:33+05:30",
+    "availability_basis": "timestamp encoded in the NSE archive path",
+    "parser_status": "PDF validated; financial extraction pending GS-04",
+    "historical_feature_eligible": false
+  },
+  "boundary": "The localhost API performed the live NSE directory and filing retrieval, validation, identity resolution, hashing, SQLite deduplication and vault publication. Financial extraction and analysis were not performed."
+}

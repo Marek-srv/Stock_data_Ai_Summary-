@@ -1,0 +1,321 @@
+{
+  "schema_version": "graph-stock-release-acceptance/v1",
+  "snapshot_as_of": "2026-09-11T06:00:01.926943+00:00",
+  "project_version": "0.22.0",
+  "overall_status": "passed",
+  "scope": {
+    "ticker": "BEL",
+    "market": "NSE",
+    "broker_execution": false,
+    "historical_strategy_evidence": "explicitly-labelled fixture"
+  },
+  "saved_live_evidence": {
+    "filing_source_id": "efb2b6691ade11bf748ff9f6fc867e8bcc7cdd3f69d54730f8051f95ba08a216",
+    "filing_sha256": "db47a73b477737b5c5241d6c62bfba08446a734fb8b59972b6a6577e0fe7867d",
+    "filing_origin": "https://archives.nseindia.com/corporate/BEL_05082025203833_Letter_Signed_IAR_Notice.pdf",
+    "financial_run_id": "26711f09-a85a-40ed-8a4a-a02e76421f33",
+    "update_run_id": "d66d4b12-af1f-44c0-ae65-8ef80828ab9a",
+    "complete_report_run_id": "d66d4b12-af1f-44c0-ae65-8ef80828ab9a",
+    "update_manifest_sha256": "7421fe8c8950674f276af1462fe2fe29c34d257b5d6aa4669642f824349306df",
+    "live_market_run_id": "2cb8fe38-bb38-449b-885e-2bc9a30e0a0b",
+    "live_market_status": "partial"
+  },
+  "incremental_graph": {
+    "node_count": 22,
+    "reused_count": 14,
+    "rerun_count": 8,
+    "nodes": [
+      {
+        "name": "manifest",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "7421fe8c8950674f276af1462fe2fe29c34d257b5d6aa4669642f824349306df"
+      },
+      {
+        "name": "extract_facts",
+        "status": "reused",
+        "reused_from": "814bc3b5-5fba-469c-945f-7619c4a7fa96",
+        "fingerprint": "c64232f51a5eab675c5039cd881b16aab93d7fc4c6e3dc86e9b44ecce8351cf1"
+      },
+      {
+        "name": "research_context",
+        "status": "reused",
+        "reused_from": "814bc3b5-5fba-469c-945f-7619c4a7fa96",
+        "fingerprint": "64fa869426e3d686bec2fd2deab9c283be7c2606d617ca859698858a5d1dc872"
+      },
+      {
+        "name": "qualitative_evidence",
+        "status": "reused",
+        "reused_from": "96475495-5935-47e7-873c-72641f91162f",
+        "fingerprint": "33ed6c741620884063320c6ed1b51570a8564e2c15fadaad77c55bfbc87e3371"
+      },
+      {
+        "name": "calculate_metrics",
+        "status": "reused",
+        "reused_from": "60cd5dc6-05c4-415a-882f-e44d75fadc59",
+        "fingerprint": "9bdfe60bd390aced115e84db68dd81fcf2de56a6d2a64325b28075a8fc1e6cc9"
+      },
+      {
+        "name": "business_quality",
+        "status": "reused",
+        "reused_from": "96475495-5935-47e7-873c-72641f91162f",
+        "fingerprint": "472660d325bf5ea62e36fab963309419d04386b1ef02e634a9cb9f7215f89a5b"
+      },
+      {
+        "name": "industry",
+        "status": "reused",
+        "reused_from": "96475495-5935-47e7-873c-72641f91162f",
+        "fingerprint": "f3ea21025b453d52b4e6b1335c4d6a0f7a83cce0d05b52f094749890ebb3f0df"
+      },
+      {
+        "name": "competitor",
+        "status": "reused",
+        "reused_from": "96475495-5935-47e7-873c-72641f91162f",
+        "fingerprint": "147fd09eee1dcb5a56556a6de1f160b5a38bb37272fc3d68119c04e64feb71bf"
+      },
+      {
+        "name": "moat",
+        "status": "reused",
+        "reused_from": "96475495-5935-47e7-873c-72641f91162f",
+        "fingerprint": "df8f8d45f23f81be136619c847316fd88185b37ded5d022864454f703f0f2fe5"
+      },
+      {
+        "name": "earnings",
+        "status": "reused",
+        "reused_from": "71ca44ee-9e05-4299-92ec-0f076f5c004d",
+        "fingerprint": "d4830f6d5329ca208f303fc89042a2053e44e458b15661c9c866551d962a160c"
+      },
+      {
+        "name": "management_claims",
+        "status": "reused",
+        "reused_from": "71ca44ee-9e05-4299-92ec-0f076f5c004d",
+        "fingerprint": "d7405dade56000eaae82f81bdb4ad3b4f524bd617a0ab08b9d753b55c4e8e4e9"
+      },
+      {
+        "name": "valuation",
+        "status": "reused",
+        "reused_from": "a77d0d62-c509-421e-898e-8f715e3c52f5",
+        "fingerprint": "08dd5dab82387ea5f62d95d1462fa4a1463eeb9bfa7f107ee7812abb42acbc2e"
+      },
+      {
+        "name": "management",
+        "status": "reused",
+        "reused_from": "71ca44ee-9e05-4299-92ec-0f076f5c004d",
+        "fingerprint": "57e98ec0d0ca45c81ae368869ec823dda78d719e5409efbc2cdd3ec5024a9008"
+      },
+      {
+        "name": "ownership_intelligence",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "eb31ddff3a24aab68a46d10298d21fb7e85773feb5f23f6b4cb9d76e13573966"
+      },
+      {
+        "name": "news_catalyst",
+        "status": "reused",
+        "reused_from": "52d66e14-b7af-493c-9ab0-deb0b1000d43",
+        "fingerprint": "86e5179e390fd3c828faa757560af800e24753712137ffad17c594134f746812"
+      },
+      {
+        "name": "risk",
+        "status": "reused",
+        "reused_from": "52d66e14-b7af-493c-9ab0-deb0b1000d43",
+        "fingerprint": "ff267d4b44067aadced134fe24b57feda25134c4ee70b066861ce5f97ae4ff89"
+      },
+      {
+        "name": "bull",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "85243112598de17619d00fb364bedf157bf97e19a4c921b720fa96449637b350"
+      },
+      {
+        "name": "bear",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "b8b080394c37d2a8401899d52a2e52d5f9d37fb75923cc4624cbd996484ebef6"
+      },
+      {
+        "name": "judge",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "617e9e8f51d6f2acf8187461930061a3fd6b09e0756703e8cbc7be495674d010"
+      },
+      {
+        "name": "investment_thesis",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "4d5963a15dc5a55f2175669f6ba3f14115bbcefab1808dd42fd8d065d2bb83d2"
+      },
+      {
+        "name": "score_snapshot",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "d485314c3f317a712867151410e53540a090ffa400ab6680921b72c15cd20554"
+      },
+      {
+        "name": "publish_report",
+        "status": "completed",
+        "reused_from": null,
+        "fingerprint": "db872d31c9856c39a61f1b0bc73b6bab9175f30da58e4720fa3bb9bbca8003cc"
+      }
+    ]
+  },
+  "fixture_mechanics": {
+    "rejected_validation_id": "f4844f6a-8026-45ea-8d6a-fa23daa0fac3",
+    "passing_validation_id": "5e8d9053-37b6-4cd3-bdde-5413f700a38a",
+    "independent_paper_book_id": "5721c0ec-5b87-431b-8f57-c25315d1844a",
+    "independent_paper_event_count": 25,
+    "combined_book_evidence": "tests/test_combined.py"
+  },
+  "integrity": {
+    "source_content_hash_verified": true,
+    "referenced_vault_artifact_count": 100,
+    "missing_vault_artifacts": [],
+    "verified_backup_id": "471ba1e8-ecbe-4642-ba09-4041605c7196",
+    "broker_submission_routes": []
+  },
+  "scenarios": [
+    {
+      "name": "real NSE ticker from saved empty-vault run",
+      "status": "passed",
+      "classification": "saved-live-public-source",
+      "evidence": [
+        "efb2b6691ade11bf748ff9f6fc867e8bcc7cdd3f69d54730f8051f95ba08a216",
+        "26711f09-a85a-40ed-8a4a-a02e76421f33",
+        "d66d4b12-af1f-44c0-ae65-8ef80828ab9a"
+      ]
+    },
+    {
+      "name": "unchanged and incremental graph reuse",
+      "status": "passed",
+      "classification": "saved-live-source plus deterministic replay",
+      "evidence": [
+        "d66d4b12-af1f-44c0-ae65-8ef80828ab9a",
+        "814bc3b5-5fba-469c-945f-7619c4a7fa96"
+      ],
+      "note": "14 of 22 nodes reused; changed ownership reran affected synthesis."
+    },
+    {
+      "name": "specialists, institutional history and independent debate",
+      "status": "passed",
+      "classification": "saved-live-public-source",
+      "evidence": [
+        "report:business_quality:4252464973c611816f84",
+        "report:competitor:59aba8cb7faf8e736830",
+        "report:industry:3b68ce58fd6e641a9558",
+        "report:moat:9cfcdbf96ffcd58b192e",
+        "report:earnings:41c38d5306578788cb94",
+        "report:management:6f406c0a17b6c6fd3aa5",
+        "report:management_claims:b61e2cedd01018761063",
+        "report:risk:53b33502287d3086c712",
+        "report:valuation:8d66192188630301c357",
+        "case:bear:1812ee88e3fb7b2c1b80",
+        "case:bull:ebe32f9e0c29c247c95a",
+        "thesis:054771db3b47f5abeef5",
+        "judge:41f07bb80d66cf6ac61f",
+        "score:ffddc9b50a588f9da74d"
+      ]
+    },
+    {
+      "name": "future-data exclusion, actions and ambiguous bars",
+      "status": "passed",
+      "classification": "reproducible golden/PIT fixtures",
+      "evidence": [
+        "e2a679c2-3395-48fa-9be5-71748d5bd736",
+        "2884b69d-1801-4fcc-a084-8f9ac7c37822",
+        "tests/test_features.py",
+        "tests/test_backtest.py"
+      ]
+    },
+    {
+      "name": "failed gate rejection and passing promotion",
+      "status": "passed",
+      "classification": "explicitly-labelled mechanics fixtures",
+      "evidence": [
+        "f4844f6a-8026-45ea-8d6a-fa23daa0fac3",
+        "5e8d9053-37b6-4cd3-bdde-5413f700a38a",
+        "tests/test_validation.py"
+      ]
+    },
+    {
+      "name": "independent and combined paper accounting",
+      "status": "passed",
+      "classification": "explicitly-labelled mechanics fixtures",
+      "evidence": [
+        "5721c0ec-5b87-431b-8f57-c25315d1844a",
+        "tests/test_paper.py",
+        "tests/test_combined.py"
+      ],
+      "note": "Saved independent fixture has 25 events; combined evidence is hermetic test output."
+    },
+    {
+      "name": "partial sources and authentication recovery",
+      "status": "passed",
+      "classification": "reproducible adapter fixtures",
+      "evidence": [
+        "2cb8fe38-bb38-449b-885e-2bc9a30e0a0b",
+        "tests/test_filings.py",
+        "tests/test_reasoning.py"
+      ]
+    },
+    {
+      "name": "correction, interruption and restart recovery",
+      "status": "passed",
+      "classification": "reproducible integration fixtures",
+      "evidence": [
+        "tests/test_history.py",
+        "tests/test_updates.py",
+        "tests/test_paper.py"
+      ]
+    },
+    {
+      "name": "scheduler catch-up, alerts, vault preservation and restore",
+      "status": "passed",
+      "classification": "saved-local plus fixtures",
+      "evidence": [
+        "d2507296-8ec8-40f5-8e46-4ec10c96797d",
+        "471ba1e8-ecbe-4642-ba09-4041605c7196",
+        "tests/test_scheduler.py",
+        "tests/test_alerts.py"
+      ]
+    },
+    {
+      "name": "approval gate and absence of broker submission",
+      "status": "passed",
+      "classification": "reproducible contract fixtures plus route audit",
+      "evidence": [
+        "tests/test_improvements.py",
+        "API route inventory"
+      ]
+    }
+  ],
+  "test_layers": {
+    "unit": [
+      "tests/test_financials.py",
+      "tests/test_market_data.py"
+    ],
+    "integration": [
+      "tests/test_updates.py",
+      "tests/test_scheduler.py",
+      "tests/test_history.py"
+    ],
+    "golden_data": [
+      "tests/test_backtest.py",
+      "tests/test_paper.py",
+      "tests/test_combined.py"
+    ],
+    "point_in_time": [
+      "tests/test_features.py",
+      "tests/test_validation.py"
+    ],
+    "schema_validation": [
+      "tests/test_specialists.py",
+      "tests/test_debate.py",
+      "tests/test_event_research.py"
+    ]
+  },
+  "verification": {
+    "python_tests": "138 passed; 1 upstream deprecation warning",
+    "frontend_build": "passed; Vite 8.2.2; 16 modules transformed"
+  },
+  "manifest_sha256": "29cf2c493fa911a53a8adc2de3318fa341d98680a89e74f538d1649ffe653c0a"
+}

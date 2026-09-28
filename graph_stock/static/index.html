@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>graph_stock · Connection</title><link rel="stylesheet" href="/assets/style.css"><script defer src="/assets/app.js"></script></head>
+<body><main>
+<nav><strong>graph_stock<span> / research OS</span></strong><span class="tag">LOCAL · MILESTONE 0</span></nav>
+<header><p class="eyebrow">BUILDING THE FOUNDATION</p><h1>A connected<br>research workspace.</h1><p class="intro">Verify that your signed-in reasoning connection is ready before the first company enters your research library.</p></header>
+<section class="panel"><div class="panel-heading"><div><p class="eyebrow">CONNECTION CHECK</p><h2>ChatGPT → local research</h2></div><span id="badge" class="badge">Ready to check</span></div>
+<p>This check sends a tiny synthetic evidence sample through your signed-in Codex client. It uses your account’s reasoning allowance.</p>
+<div class="facts"><div><span>Authentication</span><strong>ChatGPT sign-in</strong></div><div><span>Application storage</span><strong>Local SQLite</strong></div><div><span>Evidence</span><strong>Synthetic test only</strong></div></div>
+<button id="start">Check connection <span aria-hidden="true">↗</span></button><button id="retry" hidden>Retry this check</button>
+<div id="status" role="status" aria-live="polite">No check has been run yet.</div>
+<div id="result" hidden><p class="eyebrow">VALIDATED RESPONSE</p><p id="summary"></p><dl><dt>Evidence</dt><dd id="evidence"></dd><dt>Reported growth</dt><dd id="growth"></dd></dl></div>
+<details id="details" hidden><summary>Check details</summary><pre id="metadata"></pre></details>
+</section>
+<section class="history"><h2>Recent checks</h2><p id="empty">Your connection history will appear here.</p><div id="history"></div></section>
+<footer>GS-01 · Connection diagnostic. Stock research and trading features are not implemented yet.</footer>
+</main></body></html>

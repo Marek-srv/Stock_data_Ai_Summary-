@@ -1,0 +1,81 @@
+{
+  "id": "d6fed82f-4986-40bd-aa24-05494c472496",
+  "status": "completed",
+  "created_at": "2026-09-05T20:29:47.896840+00:00",
+  "updated_at": "2026-09-05T20:29:47.900363+00:00",
+  "message": "Fixture snapshot saved. Reopen it from your watchlist at any time.",
+  "snapshot": {
+    "schema_version": "fixture-snapshot/v1",
+    "mode": "fixture",
+    "run_id": "d6fed82f-4986-40bd-aa24-05494c472496",
+    "security": {
+      "security_id": "NSE:BHEL",
+      "symbol": "BHEL",
+      "name": "Bharat Heavy Electricals Limited",
+      "exchange": "NSE"
+    },
+    "saved_at": "2026-09-05T20:29:47.896840+00:00",
+    "notice": "SYNTHETIC TEST DATA \u2014 not live company research or investment advice.",
+    "period": "Demo period A \u2192 Demo period B (not real fiscal periods)",
+    "summary": "This synthetic sample demonstrates how a research snapshot is calculated, saved and retrieved. It is not an assessment of this company.",
+    "metrics": [
+      {
+        "id": "revenue",
+        "label": "Revenue",
+        "value": "1200",
+        "unit": "INR crore",
+        "period": "Demo period B",
+        "evidence_id": "fixture:BHEL:financials:v1",
+        "formula": "fixture fact: revenue_B"
+      },
+      {
+        "id": "growth",
+        "label": "Revenue growth",
+        "value": "20.0",
+        "unit": "%",
+        "period": "A \u2192 B",
+        "evidence_id": "fixture:BHEL:financials:v1",
+        "formula": "(revenue_B - revenue_A) / revenue_A \u00d7 100"
+      },
+      {
+        "id": "margin",
+        "label": "Operating margin",
+        "value": "15.00",
+        "unit": "%",
+        "period": "Demo period B",
+        "evidence_id": "fixture:BHEL:financials:v1",
+        "formula": "operating_profit_B / revenue_B \u00d7 100"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "fixture:BHEL:financials:v1",
+        "kind": "synthetic-fixture",
+        "version": "1",
+        "title": "BHEL \u00b7 synthetic financial sample",
+        "period": "Demo period A \u2192 Demo period B (not real fiscal periods)",
+        "facts": {
+          "revenue_A": "1000",
+          "revenue_B": "1200",
+          "operating_profit_B": "180",
+          "unit": "INR crore"
+        },
+        "locator": "Bundled fixture / facts",
+        "collected_at": "2026-09-05T20:29:47.896840+00:00"
+      }
+    ],
+    "missing": [
+      "Real filings and financial history",
+      "Business, valuation and risk analysis",
+      "Validated backtests and paper signals"
+    ],
+    "research_score": null,
+    "confidence": null
+  },
+  "note": {
+    "relative_path": "Graph Stock/Fixtures/BHEL/d6fed82f-4986-40bd-aa24-05494c472496.md",
+    "sha256": "7030c4796a1b16fc600e7373ea5a0fb93713736e160288ce91c9e7854336163a",
+    "integrity": "verified",
+    "obsidian_uri": "obsidian://open?path=%2FUsers%2Fsriramvishal%2F.codex%2F.chatgpt-projects%2Fg-p-6a86aec930c881919be03f7799466e0f%2F.state%2Ffixture-vault%2FGraph%20Stock%2FFixtures%2FBHEL%2Fd6fed82f-4986-40bd-aa24-05494c472496.md"
+  }
+}

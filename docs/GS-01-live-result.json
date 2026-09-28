@@ -1,0 +1,30 @@
+{
+  "id": "8bf7c32f-4c28-4a37-8ebb-b3cac13784dd",
+  "status": "completed",
+  "created_at": "2026-09-05T20:07:53.543591+00:00",
+  "updated_at": "2026-09-05T20:08:01.331095+00:00",
+  "attempt": 1,
+  "version": "0.153.4",
+  "auth_method": "chatgpt",
+  "result": {
+    "evidence_id": "fixture-001",
+    "direction": "increased",
+    "growth_display": "20%",
+    "summary": "Synthetic revenue increased from 100 to 120, a 20% increase."
+  },
+  "usage": {
+    "input_tokens": 14889,
+    "cached_input_tokens": 0,
+    "output_tokens": 49
+  },
+  "event_count": 4,
+  "message": "Connection verified. The signed-in client returned a validated result.",
+  "attempts": [
+    {
+      "number": 1,
+      "status": "completed",
+      "started_at": "2026-09-05T20:07:53.545215+00:00",
+      "finished_at": "2026-09-05T20:08:01.331095+00:00"
+    }
+  ]
+}
